@@ -17,7 +17,7 @@
   padding-right: 12px;
 }
 .n-resources{
-  margin-left: 20px;
+  margin-left: 0px;
 }
 /* Main Title */
 h1{
@@ -69,7 +69,41 @@ h2{
 .btn-outline-dark{
   margin-top:10px;
 }
+/* carosel */
 #Guideline-Carosel{
-  background-color: #343a40;
-  color:#fff;
+  background-color: #fff;
+  color:#000;
+}
+.Guideline-text{
+  padding-top: 100px;
+  padding-left: 570px;
+  padding-bottom: 50px;
+}
+.Guideline-image{
+  padding-left: 400px;
+  height: 400px;
+  margin-bottom: 100px;
+}
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+/* footer */
+ #footer{
+  background-color: #E9EAF7;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.social-icon{
+  padding: 1%;
 }
